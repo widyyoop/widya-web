@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .sa {
+        height: 100px;
+        width: 200px;
+        background-color: salmon;
+        border-radius: 100px 100px 0 0;
+       }
+       .dua {
+        width: 300px;
+        height: 400px;
+        background-color: rgb(101, 81, 121);
+        border-bottom-right-radius: 800px;
+        position: relative;
+       }
+       .hole{
+        width: 290px;
+        height: 390px;
+        background-color: rgb(255, 255, 255);
+        border-bottom-right-radius: 700px;
+        position: absolute;
+        top:5px;
+        left:5px;
+        
+        z-index: 2;
+       }
+       .ta {
+        height: 100px;
+        width: 200px;
+        background-color: salmon;
+        border-radius: 500px 700px 400px 800px;
+       }
+       .borderimg {
+        border: 10px solid transparent;
+        padding: 15px;
+        border-image: url(border.png) 30 stretch;
+  }
+    </style>
+</head>
+<body>
+    <div class="sa"></div>
+   <br><br><br>
+    <div class="dua">
+        <div class="hole"></div>
+    </div>
+    <br>
+    <div class="ta"></div>
+
+<br>
+<p class="borderimg"> ini adalah teks berborder</p>
+</body>
+</html>
